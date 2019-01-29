@@ -22,7 +22,7 @@
     transform: rotate(11deg);
     -ms-transform: rotate(11deg); /* IE 9 */
     -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
-}
+    }
 
 .solgan {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitsream Character", "Nimbus Roman No9 L," Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook L", Georgia, serif;
@@ -31,14 +31,16 @@
   }
 
   .links a{
-    color: black;
-    font-size: 25px
+    color: black ;
+    font-size: 25px ;
     border-bottom: 1px solid #dfdfdf; 
-
-  }
+    }
 
   header {
   border-top: 9px solid #222222;
   }
 
-  
+  hr {
+  clear: both;
+  }
+
